@@ -70,7 +70,7 @@ const App = () => {
 
       await axios.put(`UserTodos/${todoData.todoId}`,
       {
-        Status: todoData.todoStatus
+        status: todoData.todoStatus
       }
       );
       
